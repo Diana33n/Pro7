@@ -24,6 +24,12 @@ In most cases of personal projects, it is very common to pull basic data from an
 - [Geonames API](http://www.geonames.org/export/web-services.html) - Geographical database from which the location data is pulled
 - [WeatherBit API](https://www.weatherbit.io/) - Weather API for current and future weather data
 - [Pixabay API](https://pixabay.com/api/docs/) - RESTful interface for searching and retrieving free images and videos
+## Development Setup
+
+- Node.js v18.x
+- npm v9.x
+
+Run `npm install` to install dependencies.
 
 ## Development strategy
 
