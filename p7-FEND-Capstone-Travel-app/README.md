@@ -14,7 +14,18 @@
 4. [Getting Started](#getting-started)
 5. [Built With](#built-with)
 6. [Test](#test)
+# Travel App
 
+A weather and travel planning app integrating Geonames, Weatherbit, and Pixabay APIs.
+
+## Setup
+1. Clone this repo.
+2. Run `npm install`.
+3. Create a `.env` file with:
+   - GEONAMES_API_KEY=your_key
+   - WEATHERBIT_API_KEY=your_key
+   - PIXABAY_API_KEY=your_key
+4. Run `npm run build` and `npm start`.
 ## About the Project
 
 In most cases of personal projects, it is very common to pull basic data from an external API. This is what we have accomplished so far in this nanodegree. However, many production-level applications do not rely on only a single source of data, they usually pull multiple data from various resources and make them available to different parts of the app asynchronously, so one API can use the data gathered from another API.
