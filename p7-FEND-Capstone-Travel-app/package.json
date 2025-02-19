@@ -11,12 +11,9 @@
     "build-prod": "webpack --config webpack.prod.js"
   },
   "engines": {
-  "node": "18.x",
-  "npm": "9.x"
-}
-  "scripts": {
-  "test": "jest"
-}
+    "node": "18.x",
+    "npm": "9.x"
+  }, // <-- Comma added here
   "author": "Manpreet",
   "license": "MIT",
   "dependencies": {
